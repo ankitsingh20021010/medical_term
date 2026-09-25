@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.unobserve(entry.target);
       }
     });
+    
   }, { threshold: 0.12 });
 
   cards.forEach(card => observer.observe(card));
